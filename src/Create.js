@@ -27,7 +27,7 @@ const Create = () => {
 
   return (
     <div className="create">
-      <h2>Add new tvrda stvar</h2>
+      <h2>Unesi novi blog</h2>
       <form onSubmit={handleSubmit}>
         <label>Unesi title</label>
         <input
@@ -36,7 +36,7 @@ const Create = () => {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         ></input>
-        <label>Unesi body</label>
+        <label>Unesi tekst</label>
         <textarea
           required
           value={body}
